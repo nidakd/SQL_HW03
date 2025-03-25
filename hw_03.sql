@@ -75,6 +75,7 @@ FROM track t
 JOIN playlisttrack pt ON t.track_id = pt.track_id
 JOIN playlist p ON pt.playlist_id = p.playlist_id;
 
+-------------------
 
 --3.SORU:
 --Let There Be Rock" adlı albüme ait tüm parçaları (Track) listeleyen,
